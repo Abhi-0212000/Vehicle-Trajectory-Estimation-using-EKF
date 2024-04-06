@@ -153,3 +153,10 @@ hat(P_k) = (I - K_k * H_k) * P_k  (Corrected covariance)
 - `hat(P_k)`: Corrected covariance matrix. This reflects the updated uncertainty in the state estimate after incorporating the measurement.
 - `I`: Identity matrix
 - `The Kalman Gain (`K_k`) and the measurement model Jacobian (`H_k`) are used to adjust the predicted covariance (`P_k`) into the corrected covariance (`hat(P_k)`). This reduces the uncertainty in the state estimate as the measurement provides new information.
+
+**Output Trajectory**
+
+<div>
+    <img src="https://github.com/Abhi-0212000/Vehicle-Trajectory-Estimation-using-EKF/assets/70425157/1af6131d-e35f-4596-862c-d1e6dd151b95" alt="trajectory_plot" style="width:45%; float:left; margin-right:5%">
+    <img src="https://github.com/Abhi-0212000/Vehicle-Trajectory-Estimation-using-EKF/assets/70425157/c2b8c84f-3881-4c50-839d-39ddbcc02f6c" alt="theta_plot" style="width:45%; float:left;">
+</div>
